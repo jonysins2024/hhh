@@ -22,7 +22,7 @@ const Register = () => {
 
 
   return (
-    <div className="login-wrapper py-12">
+    <div className="login-wrapper py-12  px-4 md:px-0">
       <div className="container my-20">
         <div className="max-w-2xl mx-auto">
           <form onSubmit={handleSubmit(onSubmit)} className="">
@@ -32,7 +32,7 @@ const Register = () => {
               </h1>
               <div>
                 {/* photo url */}
-                <ChoosePhoto/>
+                <ChoosePhoto />
                 {/* name */}
                 <div className="form-control mb-4">
                   <label className="label" htmlFor="name">
@@ -65,15 +65,15 @@ const Register = () => {
 
                 {/* role */}
                 <div className="form-control mb-4">
-                <label for="phone" className="text-sm text-[#555656]">Role</label>
+                  <label for="phone" className="text-sm text-[#555656]">Role</label>
 
-                <div className="w-full rounded-lg outline-none border-2 bg-white border-[#D5D5D5] p-5 pe-12 text-sm">
+                  <div className="w-full rounded-lg outline-none border-2 bg-white border-[#D5D5D5] p-5 pe-12 text-sm">
                     <select className='w-full outline-none' name="" id="">
-                        <option value="">Seller</option>
-                        <option value="">Buyer</option>
+                      <option value="">Seller</option>
+                      <option value="">Buyer</option>
                     </select>
+                  </div>
                 </div>
-            </div>
 
                 {/* password */}
                 <div className="form-control mb-4 relative">
@@ -117,7 +117,7 @@ const Register = () => {
                 <div className="form-control mb-6">
                   <button
                     type="submit"
-                    className="rounded bg-gradient-to-r from-red-500 to-yellow-500 text-white md:py-4 md:px-8 md:text-xl disabled:text-white"
+                    className="rounded bg-gradient-to-r from-red-500 to-yellow-500 text-white py-3 md:py-4 md:px-8 md:text-xl disabled:text-white"
                   >
                     Register
                   </button>

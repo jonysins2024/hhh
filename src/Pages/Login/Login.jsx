@@ -26,7 +26,7 @@ const Login = () => {
     };
 
     return (
-        <div className="login-wrapper py-12">
+        <div className="login-wrapper py-12 px-4 md:px-0">
             <div className="container my-20">
                 <div className="max-w-2xl mx-auto">
                     <form onSubmit={handleSubmit(onSubmit)} className="">
@@ -72,7 +72,7 @@ const Login = () => {
                                 <div className="form-control mb-6">
                                     <button
                                         type="submit"
-                                        className="bg-gradient-to-r from-red-500 to-yellow-500 text-white md:py-4 md:px-8 md:text-xl disabled:text-white rounded"
+                                        className="bg-gradient-to-r from-red-500 to-yellow-500 text-white py-3 md:py-4 md:px-8 md:text-xl disabled:text-white rounded"
                                     >
                                         Login
                                     </button>

@@ -21,7 +21,7 @@ const Searchbar = () => {
   return (
     <>
       <div
-        className={`mx-auto px-3 py-2 transition-colors duration-500 md:hidden ${scrolling && "bg-primaryColor1 sticky top-0 z-30"
+        className={`mx-auto px-3 py-2 transition-colors duration-500 md:hidden ${scrolling && "bg-transparent sticky top-0 z-30"
           }`}
       >
         <input
