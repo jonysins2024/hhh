@@ -18,8 +18,8 @@ const Header = () => {
           </div>
         </Link>
         <div><Searchbar /></div>
-        <FiShoppingCart className="text-[18px]  text-[#f85606] hover:bg-black/10  cursor-pointer rounded-md" />
-        <Link to='/login'><MemoryLogin className="text-[18px]  text-[#f85606] hover:bg-black/10  cursor-pointer rounded-md" /></Link>
+        <div className="pr-2">   <FiShoppingCart className="text-[18px]  text-[#f85606] hover:bg-black/10  cursor-pointer rounded-md" /></div>
+        <div><Link to='/login'><MemoryLogin className="text-[18px]  text-[#f85606] hover:bg-black/10  cursor-pointer rounded-md" /></Link></div>
       </div>
       {/* navbar  */}
       <nav className="bg-primaryColor2 w-full py-4 sticky top-0 left-0 hidden  z-30  md:block">
@@ -75,4 +75,6 @@ export function MemoryLogin(props) {
     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 22 22" {...props}><path fill="currentColor" d="M5 1h12v1h1v18h-1v1H5v-1H4v-6h2v5h10V3H6v5H4V2h1V1m3 5h2v1h1v1h1v1h1v1h1v2h-1v1h-1v1h-1v1h-1v1H8v-2h1v-1h1v-1H2v-2h8V9H9V8H8V6Z"></path></svg>
   )
 }
+
+
 export default Header;

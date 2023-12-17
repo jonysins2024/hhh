@@ -45,7 +45,7 @@ const ServiceGuearanty = () => {
         </div>
       </div>
       <div className="md:hidden mx-1">
-        <div className="bg-primaryColorLight grid grid-cols-2 gap-y-2  py-2 px-[10px] rounded-md">
+        <div className="bg-primaryColorLight grid grid-cols-2 gap-y-4 gap-x-3  py-2 px-[10px] rounded-md">
           {serviceGuar.map((service) => {
             const { title, icon: Icon } = service;
             return (
